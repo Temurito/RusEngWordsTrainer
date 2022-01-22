@@ -1,2 +1,2 @@
 # RusEngWordsTrainer
-bla bla bla
+temurito.github.io/RusEngWordsTrainer/
