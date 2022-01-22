@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Самоучитель Английских слов</header>
+    
+    <div class="main">
+
+        <div class="PackManager">
+
+            <select id="packs">
+                <option value="Animals">Животные</option>
+                <option value="Transport">Транспорт</option>
+            </select>
+            <button id="changePack" class="button">Сменить набор</button>
+        
+        </div>
+
+        <div class="MainBlock">
+
+            <div class="WordLine">
+                <p id="word">Тут будет слово</p>
+                <div class="CounterDiv">
+                    <span id="counter">0</span>
+                </div>
+            </div>
+            <input type="text" id="entered">
+            <button id="enter">Ввести</button>
+            <span id="info">⠀</span>
+
+        </div>
+
+        <div class="LangManager">
+
+            <span id="word1">Русский</span>
+            <span id="circle">&nbsp;</span>
+            <span id="word2">Английский</span>
+            <button id="change" class="button">Сменить язык</button>
+
+        </div>
+
+    </div>
+    <div id="StartBox">
+        <button id="start">Новая игра</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
