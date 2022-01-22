@@ -1,1 +1,2 @@
 # RusEngWordsTrainer
+bla bla bla
